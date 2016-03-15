@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("GymBoost.Core")]
+[assembly: AssemblyTitle("GymBooster.Core")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Pawel Szczygielski")]
-[assembly: AssemblyProduct("GymBoost.Core")]
+[assembly: AssemblyProduct("GymBooster.Core")]
 [assembly: AssemblyCopyright("Copyright © Pawel Szczygielski 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

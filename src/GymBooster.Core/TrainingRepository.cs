@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using GymBoost.Core.Entities;
+using GymBooster.Core.Entities;
 
-namespace GymBoost.Core
+namespace GymBooster.Core
 {
     public class TrainingRepository
     {

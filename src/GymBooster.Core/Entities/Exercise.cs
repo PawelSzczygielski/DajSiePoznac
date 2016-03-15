@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace GymBoost.Core.Entities
+namespace GymBooster.Core.Entities
 {
     public class Exercise
     {

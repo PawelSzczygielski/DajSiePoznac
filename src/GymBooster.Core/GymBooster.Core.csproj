@@ -7,8 +7,8 @@
     <ProjectGuid>{FB0DD42D-3508-4BF0-954E-5CECBDCE6CBC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GymBoost.Core</RootNamespace>
-    <AssemblyName>GymBoost.Core</AssemblyName>
+    <RootNamespace>GymBooster.Core</RootNamespace>
+    <AssemblyName>GymBooster.Core</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
