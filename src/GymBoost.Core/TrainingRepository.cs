@@ -6,7 +6,7 @@ namespace GymBoost.Core
 {
     public class TrainingRepository
     {
-        public Training GetLastTraining()
+        public List<Training> GetAllTrainings()
         {
             var trainingStartTime = new DateTime(2016, 03, 12, 18, 0, 0);
             var training = new Training
@@ -52,7 +52,7 @@ namespace GymBoost.Core
                     }
                 }
             });
-            return training;
+            return new List<Training> { training };
         }
     }
 }
