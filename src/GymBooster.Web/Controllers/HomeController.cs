@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
+using GymBooster.Core;
 
 namespace GymBooster.Web.Controllers
 {
@@ -10,7 +7,9 @@ namespace GymBooster.Web.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            var trainingRepo = new TrainingRepository();
+            var trainings = trainingRepo.GetAllTrainings();
+            return View(trainings);
         }
 
         public ActionResult About()

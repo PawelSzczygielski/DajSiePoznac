@@ -7,17 +7,17 @@ namespace GymBooster.Core.Entities
     {
         public Training()
         {
-            _exercises = new List<Exercise>();
+            Exercises = new List<Exercise>();
         }
 
-        private readonly List<Exercise> _exercises;
+        public List<Exercise> Exercises { get; }
 
         public DateTime StartTime { get;  set; }
         public DateTime EndTime { get; set; }
 
         public void AddExercises(IEnumerable<Exercise> exercises)
         {
-            _exercises.AddRange(exercises);
+            Exercises.AddRange(exercises);
         }
     }
 }
