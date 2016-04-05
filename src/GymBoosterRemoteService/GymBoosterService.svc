@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="GymBoosterRemoteService.GymBoosterService" CodeBehind="GymBoosterService.svc.cs" %>

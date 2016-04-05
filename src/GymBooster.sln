@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymBooster.Web", "GymBooste
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymBooster.WindowsPhone", "GymBooster.WindowsPhone\GymBooster.WindowsPhone.csproj", "{A7B76400-F71E-47B3-BEC8-8802513D6109}"
 EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "GymBooster.CloudServices", "GymBooster.CloudServices\GymBooster.CloudServices.ccproj", "{729F9D4F-0F98-4476-83ED-9D857037958F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymBoosterRemoteService", "GymBoosterRemoteService\GymBoosterRemoteService.csproj", "{763AE0ED-28F4-40F3-AB8A-5EB619EAB706}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +65,30 @@ Global
 		{A7B76400-F71E-47B3-BEC8-8802513D6109}.Release|x86.ActiveCfg = Release|x86
 		{A7B76400-F71E-47B3-BEC8-8802513D6109}.Release|x86.Build.0 = Release|x86
 		{A7B76400-F71E-47B3-BEC8-8802513D6109}.Release|x86.Deploy.0 = Release|x86
+		{729F9D4F-0F98-4476-83ED-9D857037958F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{729F9D4F-0F98-4476-83ED-9D857037958F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{729F9D4F-0F98-4476-83ED-9D857037958F}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{729F9D4F-0F98-4476-83ED-9D857037958F}.Debug|ARM.Build.0 = Debug|Any CPU
+		{729F9D4F-0F98-4476-83ED-9D857037958F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{729F9D4F-0F98-4476-83ED-9D857037958F}.Debug|x86.Build.0 = Debug|Any CPU
+		{729F9D4F-0F98-4476-83ED-9D857037958F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{729F9D4F-0F98-4476-83ED-9D857037958F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{729F9D4F-0F98-4476-83ED-9D857037958F}.Release|ARM.ActiveCfg = Release|Any CPU
+		{729F9D4F-0F98-4476-83ED-9D857037958F}.Release|ARM.Build.0 = Release|Any CPU
+		{729F9D4F-0F98-4476-83ED-9D857037958F}.Release|x86.ActiveCfg = Release|Any CPU
+		{729F9D4F-0F98-4476-83ED-9D857037958F}.Release|x86.Build.0 = Release|Any CPU
+		{763AE0ED-28F4-40F3-AB8A-5EB619EAB706}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{763AE0ED-28F4-40F3-AB8A-5EB619EAB706}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{763AE0ED-28F4-40F3-AB8A-5EB619EAB706}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{763AE0ED-28F4-40F3-AB8A-5EB619EAB706}.Debug|ARM.Build.0 = Debug|Any CPU
+		{763AE0ED-28F4-40F3-AB8A-5EB619EAB706}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{763AE0ED-28F4-40F3-AB8A-5EB619EAB706}.Debug|x86.Build.0 = Debug|Any CPU
+		{763AE0ED-28F4-40F3-AB8A-5EB619EAB706}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{763AE0ED-28F4-40F3-AB8A-5EB619EAB706}.Release|Any CPU.Build.0 = Release|Any CPU
+		{763AE0ED-28F4-40F3-AB8A-5EB619EAB706}.Release|ARM.ActiveCfg = Release|Any CPU
+		{763AE0ED-28F4-40F3-AB8A-5EB619EAB706}.Release|ARM.Build.0 = Release|Any CPU
+		{763AE0ED-28F4-40F3-AB8A-5EB619EAB706}.Release|x86.ActiveCfg = Release|Any CPU
+		{763AE0ED-28F4-40F3-AB8A-5EB619EAB706}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
