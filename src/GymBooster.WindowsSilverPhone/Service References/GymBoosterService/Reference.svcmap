@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="85add9e4-3ed5-4c89-a5f2-d9349f62a997" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:49246/GymBoosterService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="GymBoosterService.xsd" MetadataType="Schema" ID="a46e027f-4154-47a8-8308-43b5047c9607" SourceId="1" SourceUrl="http://localhost:49246/GymBoosterService.svc?xsd=xsd1" />
+    <MetadataFile FileName="GymBoosterService1.xsd" MetadataType="Schema" ID="6da94e08-2352-493c-8f41-f15fdb748de4" SourceId="1" SourceUrl="http://localhost:49246/GymBoosterService.svc?xsd=xsd2" />
+    <MetadataFile FileName="GymBoosterService.disco" MetadataType="Disco" ID="d030978a-1c34-4488-9141-48d142fa116e" SourceId="1" SourceUrl="http://localhost:49246/GymBoosterService.svc?disco" />
+    <MetadataFile FileName="GymBoosterService2.xsd" MetadataType="Schema" ID="de1a41b4-0a4f-4cb1-92aa-8a0ae34f98f0" SourceId="1" SourceUrl="http://localhost:49246/GymBoosterService.svc?xsd=xsd0" />
+    <MetadataFile FileName="GymBoosterService.wsdl" MetadataType="Wsdl" ID="37ee6aaf-eb03-47ac-9dd8-950ab0635721" SourceId="1" SourceUrl="http://localhost:49246/GymBoosterService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

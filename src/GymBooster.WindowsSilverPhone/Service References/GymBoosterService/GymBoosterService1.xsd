@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://schemas.datacontract.org/2004/07/GymBooster.Core.Entities" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/GymBooster.Core.Entities" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:49246/GymBoosterService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="ArrayOfTraining">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Training" nillable="true" type="tns:Training" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfTraining" nillable="true" type="tns:ArrayOfTraining" />
+  <xs:complexType name="Training">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="EndTime" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Exercises" nillable="true" type="tns:ArrayOfExercise" />
+      <xs:element minOccurs="0" name="StartTime" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Training" nillable="true" type="tns:Training" />
+  <xs:complexType name="ArrayOfExercise">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Exercise" nillable="true" type="tns:Exercise" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfExercise" nillable="true" type="tns:ArrayOfExercise" />
+  <xs:complexType name="Exercise">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Series" nillable="true" type="tns:ArrayOfExcerciseSerie" />
+      <xs:element minOccurs="0" name="Type" nillable="true" type="tns:ExcerciseType" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Exercise" nillable="true" type="tns:Exercise" />
+  <xs:complexType name="ArrayOfExcerciseSerie">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ExcerciseSerie" nillable="true" type="tns:ExcerciseSerie" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfExcerciseSerie" nillable="true" type="tns:ArrayOfExcerciseSerie" />
+  <xs:complexType name="ExcerciseSerie">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="EndTime" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="NumberOfReps" type="xs:int" />
+      <xs:element minOccurs="0" name="StartTime" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="WeightInKilos" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ExcerciseSerie" nillable="true" type="tns:ExcerciseSerie" />
+  <xs:complexType name="ExcerciseType">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Id" type="ser:guid" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ExcerciseType" nillable="true" type="tns:ExcerciseType" />
+</xs:schema>
