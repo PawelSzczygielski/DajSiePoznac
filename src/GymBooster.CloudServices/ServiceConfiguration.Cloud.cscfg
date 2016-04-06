@@ -3,7 +3,7 @@
   <Role name="GymBoosterRemoteService">
     <Instances count="1" />
     <ConfigurationSettings>
-      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=gymbooster;AccountKey=***REMOVED***" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=gymbooster;AccountKey=JWJFA4I93PQ0i34kofscklczclskdDKJ44209saslvjka123DSAJK49AJkfdaKS/JJFLAKPQppasdaocmksjdf==" />
     </ConfigurationSettings>
   </Role>
 </ServiceConfiguration>
